@@ -182,7 +182,7 @@ Divergência entre os números do relatório e os produzidos pela execução dos
 
 ## 13. Comentários gerais
 
-Comece cedo. As Partes I a III usam conteúdo já estudado na Unidade II (armazenamento, índices, processamento e otimização de consultas) e podem ser desenvolvidas desde a publicação do enunciado. A Parte IV usa o conteúdo de controle de concorrência e níveis de isolamento, abordado nas aulas de 20/10, 22/10 e 03/11; o trabalho foi dimensionado para acompanhar essas aulas.
+Comece cedo. As Partes I a III usam conteúdo já estudado na Unidade II (armazenamento, índices, processamento e otimização de consultas) e podem ser desenvolvidas desde a publicação do enunciado. A Parte IV usa o conteúdo de controle de concorrência e níveis de isolamento, abordado nas aulas de 05/11 (escalonamento) e 17/11 (controle de concorrência); a entrega em 20/11 foi definida para acompanhar essas aulas.
 
 O uso de ferramentas de IA é permitido e deve ser declarado. O que o trabalho avalia não é a produção do código, e sim o entendimento do sistema observado: os números medidos, as previsões e a capacidade de explicar ambos.
 
