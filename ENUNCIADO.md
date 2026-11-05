@@ -134,7 +134,7 @@ O relatório, em arquivo único `docs/tp3_relatorio.pdf`, deve conter as seçõe
 - *Parte III:* por que o índice sobre `votes` não é sempre usado e o que determina o limiar medido; por que os planos de T13 e T14 diferem se as consultas são equivalentes; quais consultas de T15 passaram a usar índice depois da criação de cada um e por que a de sufixo só o usa com a reescrita; quando a hipótese de distribuição uniforme erra a estimativa de T16 e como as estatísticas adicionais mudam o resultado.
 - *Parte IV:* o comportamento do tempo total com `k`, o número de tentativas e as diferenças entre as versões a e b e entre os dois níveis de isolamento, com a explicação a partir do protocolo de controle de concorrência do PostgreSQL.
 
-**9.6. Declaração de uso de ferramentas de IA.** Seção obrigatória. Deve informar quais ferramentas foram usadas, em que partes do trabalho, o que foi solicitado a elas e o que foi modificado posteriormente. **O uso declarado não implica desconto de nota.** O que se avalia é a consistência entre a declaração, o código entregue e as respostas na arguição.
+**9.6. Declaração de uso de ferramentas de IA.** Seção obrigatória. Deve informar quais ferramentas foram usadas, em que partes do trabalho, o que foi solicitado a elas e o que foi modificado posteriormente. **O uso declarado não implica desconto de nota.** O que se avalia é a consistência entre a declaração e o código entregue.
 
 ## 10. Estrutura do repositório
 
@@ -172,26 +172,21 @@ git ls-remote --tags origin
 
 Tags com outro nome, branches chamados `v1.0` e repositórios sem o docente como colaborador não caracterizam entrega.
 
-## 12. Arguição
+## 12. Avaliação
 
-Após a entrega, toda a turma será chamada para uma **arguição individual pelo Discord**, em data e hora agendadas, com perguntas sobre o código e os números do próprio relatório. A ausência individual na data e hora agendadas zera esse item. O agendamento será feito por um formulário distribuído posteriormente.
-
-## 13. Avaliação
-
-- Implementação funcional das quatro partes, conferida pelo verificador: **30%**
-- Análise experimental e coerência entre relatório e execução: **50%**
-- Arguição pelo Discord: **10%**
+- Implementação funcional das quatro partes, conferida pelo verificador: **35%**
+- Análise experimental e coerência entre relatório e execução: **55%**
 - Rito de entrega, reprodutibilidade e previsão registrada antes da medição: **10%**
 
 Divergência entre os números do relatório e os produzidos pela execução dos programas entregues é o item de maior peso negativo do trabalho.
 
-## 14. Comentários gerais
+## 13. Comentários gerais
 
 Comece cedo. As Partes I a III usam conteúdo já estudado na Unidade II (armazenamento, índices, processamento e otimização de consultas) e podem ser desenvolvidas desde a publicação do enunciado. A Parte IV usa o conteúdo de controle de concorrência e níveis de isolamento, abordado nas aulas de 20/10, 22/10 e 03/11; o trabalho foi dimensionado para acompanhar essas aulas.
 
 O uso de ferramentas de IA é permitido e deve ser declarado. O que o trabalho avalia não é a produção do código, e sim o entendimento do sistema observado: os números medidos, as previsões e a capacidade de explicar ambos.
 
-## 15. Referências
+## 14. Referências
 
 1. ELMASRI, R.; NAVATHE, S. B. *Sistemas de Banco de Dados*, 7ª ed. Pearson, 2018. Capítulos sobre estruturas de indexação, processamento e otimização de consultas, e controle de concorrência.
 2. SILBERSCHATZ, A.; KORTH, H. F.; SUDARSHAN, S. *Sistema de Banco de Dados*, 6ª ed. Elsevier, 2012.
