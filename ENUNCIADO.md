@@ -4,7 +4,7 @@ Introdução a Bancos de Dados — ICC205 — 2026/02
 Docente: Altigran Soares da Silva <alti@icomp.ufam.edu.br>
 
 # Trabalho Prático III — 15/10/2026
-# Data da entrega: 11/11/2026 até 23:59
+# Data da entrega: 20/11/2026 até 23:59
 
 ## 1. Apresentação
 
